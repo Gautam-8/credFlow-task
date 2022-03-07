@@ -24,8 +24,4 @@ function minNoOfplatforms(arrival , departure){
 
 }
 
-let arr = [900, 940, 950, 1100, 1500, 1800];
-let dep = [910, 1200, 1120, 1130, 1900, 2000];
-
-let result = minNoOfplatforms(arr , dep);
-console.log(result);
+//let result = minNoOfplatforms(arrival , departure);
