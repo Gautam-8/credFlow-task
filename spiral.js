@@ -1,13 +1,9 @@
 function spirallyTraversing(matrix){
   
   let output = [];
- 
   let count = 0;
- 
   let m = matrix.length;
- 
   let n = matrix[0].length;
- 
   let stop = n*m;
  
    for(let i=0; i<m/2 && count<stop ; i++){
