@@ -6,7 +6,7 @@ function spirallyTraversing(matrix){
   let n = matrix[0].length;
   let stop = n*m;
  
-   for(let i=0; i<m/2 && count<stop ; i++){
+   for(let i=0; i<m/2; i++){
      
    for(let c=i; c<n-i && count<stop; c++){
     output.push(matrix[i][c]);
